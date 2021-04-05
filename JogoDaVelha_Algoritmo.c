@@ -184,12 +184,16 @@ void jogar(){
 
    		if (vencedor == 0){
    			
-     		if(jogada < 9){
-     			
-     		jogada = jogarTabuleiro(tabuleiro,jogador[jogadorAtual+1],jogada);
-     		vencedor = verificarTabuleiro(tabuleiro, vencedor,  jogador[jogadorAtual+1]);
-     		
-			}
+			if(jogada < 9){
+
+				jogada = jogarTabuleiro(tabuleiro,jogador[jogadorAtual+1],jogada);
+				vencedor = verificarTabuleiro(tabuleiro, vencedor,  jogador[jogadorAtual+1]);
+
+				}
+   		}
+		
+		if(vencedor == 1){
+   	 		break;
    		}
  	}
 
