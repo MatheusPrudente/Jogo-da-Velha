@@ -1,4 +1,4 @@
-# Jogo-da-Velha
+# Jogo da Velha
 
 Jogo da velha ou jogo do galo é um jogo ou/e passatempo popular, que é participam dois jogadores que efetuam suas jogadas de maneira alternadas
 até que não sobre mais espaços vazios ou ocorra a vitória de um dos jogadores.
